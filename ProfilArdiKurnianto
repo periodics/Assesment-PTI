@@ -1,0 +1,85 @@
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>CV</h1>
+    <!-- HEADER -->
+    <header>
+        <table width="100%">
+            <td width="20%" align="left">
+                <img src="ayam.jpeg" width="200px" height="200px" alt= 0">
+            </td>
+            <td width="80%">
+                <h1>ARDI KURNIANTO</h1>
+                <p>Mahasiswa Telkom University | D3 Sistem Informasi</p>
+                <p>Email: ardi.kurnianto2007@gmail.com | contact: 081316476480</p>
+            </td>
+        </table>
+    </header>
+    <main>
+        <h1>Tentang Saya</h1>
+    <p>Nama saya Ardi Kurnianto, Saya berasal dari Bekasi,
+        Tanggal Lahir Saya Adalah 9 Agustus 2007, Saya Berasal dari SMAN 2 Gunung Putri.</p>
+
+        <h1>Proyek Saya</h1>
+        <!-- tabel -->
+            <section>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Nama</th>
+                            <th>Deskripsi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>HTML Project</td>
+                            <td>Website Sekolah</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>CSS Poject</td>
+                            <td>Website Telkom</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+             <!-- Skill -->
+                     <section>
+                        <h1>Skill Saya</h1>
+                        <ul>
+                            <li>Programming</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                     </section>
+        <!-- Hubungi Saya -->
+         <h1>Hubungi Saya</h1>
+         <form action="#" method="post">
+            <label for="Nama">Nama:</label><br>
+            <input type="text" id="nama" name="nama" required><br><br>
+         </form>
+         <form action="#" method="post">
+            <label for="Email">Email:</label><br>
+            <input type="text" id="Email" name="Email" required><br><br>
+
+            <input type="submit" value="Kirim">
+         </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Ardi Kurnianto. Semua Hak Dilindungi.</p>
+        <p>
+            <a href="https://instagram.com/ardikurnianto_">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>
